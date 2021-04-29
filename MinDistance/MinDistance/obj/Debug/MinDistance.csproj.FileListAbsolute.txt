@@ -1,0 +1,6 @@
+/Users/sangpiljung/Documents/github/algorithms/MinDistance/MinDistance/bin/Debug/MinDistance.exe
+/Users/sangpiljung/Documents/github/algorithms/MinDistance/MinDistance/bin/Debug/MinDistance.pdb
+/Users/sangpiljung/Documents/github/algorithms/MinDistance/MinDistance/obj/Debug/MinDistance.csprojAssemblyReference.cache
+/Users/sangpiljung/Documents/github/algorithms/MinDistance/MinDistance/obj/Debug/MinDistance.csproj.CoreCompileInputs.cache
+/Users/sangpiljung/Documents/github/algorithms/MinDistance/MinDistance/obj/Debug/MinDistance.exe
+/Users/sangpiljung/Documents/github/algorithms/MinDistance/MinDistance/obj/Debug/MinDistance.pdb
