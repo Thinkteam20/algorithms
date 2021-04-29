@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{37E6EDD0-54BD-4225-AEFB-06533AE68FF1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MinDistance/Program.cs">
+    <Files>
+      <File FileName="MinDistance/Program.cs" Line="13" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MinDistance FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
