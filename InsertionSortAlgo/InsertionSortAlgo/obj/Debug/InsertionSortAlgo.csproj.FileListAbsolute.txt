@@ -1,0 +1,6 @@
+/Users/sangpiljung/Documents/github/algorithms/InsertionSortAlgo/InsertionSortAlgo/bin/Debug/InsertionSortAlgo.exe
+/Users/sangpiljung/Documents/github/algorithms/InsertionSortAlgo/InsertionSortAlgo/bin/Debug/InsertionSortAlgo.pdb
+/Users/sangpiljung/Documents/github/algorithms/InsertionSortAlgo/InsertionSortAlgo/obj/Debug/InsertionSortAlgo.csprojAssemblyReference.cache
+/Users/sangpiljung/Documents/github/algorithms/InsertionSortAlgo/InsertionSortAlgo/obj/Debug/InsertionSortAlgo.csproj.CoreCompileInputs.cache
+/Users/sangpiljung/Documents/github/algorithms/InsertionSortAlgo/InsertionSortAlgo/obj/Debug/InsertionSortAlgo.exe
+/Users/sangpiljung/Documents/github/algorithms/InsertionSortAlgo/InsertionSortAlgo/obj/Debug/InsertionSortAlgo.pdb

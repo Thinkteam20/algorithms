@@ -1,15 +1,8 @@
 ﻿<Properties StartupConfiguration="{37E6EDD0-54BD-4225-AEFB-06533AE68FF1}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="MinDistance/Program.cs">
     <Files>
-      <File FileName="MinDistance/Program.cs" Line="13" Column="1" />
+      <File FileName="MinDistance/Program.cs" Line="15" Column="30" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="MinDistance" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MinDistance PreferredExecutionTarget="MonoDevelop.Default" />
