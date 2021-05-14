@@ -1,0 +1,6 @@
+/Users/sangpiljung/Documents/github/algorithms/CustCollectionApp/CustCollectionApp/bin/Debug/CustCollectionApp.exe
+/Users/sangpiljung/Documents/github/algorithms/CustCollectionApp/CustCollectionApp/bin/Debug/CustCollectionApp.pdb
+/Users/sangpiljung/Documents/github/algorithms/CustCollectionApp/CustCollectionApp/obj/Debug/CustCollectionApp.csprojAssemblyReference.cache
+/Users/sangpiljung/Documents/github/algorithms/CustCollectionApp/CustCollectionApp/obj/Debug/CustCollectionApp.csproj.CoreCompileInputs.cache
+/Users/sangpiljung/Documents/github/algorithms/CustCollectionApp/CustCollectionApp/obj/Debug/CustCollectionApp.exe
+/Users/sangpiljung/Documents/github/algorithms/CustCollectionApp/CustCollectionApp/obj/Debug/CustCollectionApp.pdb
