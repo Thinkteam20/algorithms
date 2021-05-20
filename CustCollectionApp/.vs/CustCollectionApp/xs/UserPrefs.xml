@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{56034233-191F-4D9C-BC68-0B26C756061F}|Default">
   <MonoDevelop.Ide.ItemProperties.CustCollectionApp PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CustCollectionApp/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CustCollectionApp/CustomerCollection.cs">
     <Files>
-      <File FileName="CustCollectionApp/Customer.cs" Line="46" Column="10" />
-      <File FileName="CustCollectionApp/CustomerCollection.cs" Line="42" Column="1" />
-      <File FileName="CustCollectionApp/Program.cs" Line="13" Column="10" />
+      <File FileName="CustCollectionApp/Customer.cs" Line="9" Column="19" />
+      <File FileName="CustCollectionApp/CustomerCollection.cs" Line="32" Column="1" />
+      <File FileName="CustCollectionApp/Program.cs" Line="16" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CustCollectionApp" expanded="True">
             <Node name="CustCollectionApp" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="CustomerCollection.cs" selected="True" />
             </Node>
           </Node>
         </State>

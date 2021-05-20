@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{60A237E0-02DC-4FE9-B561-918CDB17B87A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SelectionSortBasicSort1/Program.cs">
+    <Files>
+      <File FileName="SelectionSortBasicSort1/Program.cs" Line="16" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SelectionSortBasicSort1" expanded="True">
+            <Node name="SelectionSortBasicSort1" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SelectionSortBasicSort1 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

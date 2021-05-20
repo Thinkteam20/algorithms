@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
-    <ProjectGuid>{B06DE855-609B-4FBF-83E9-60C480647DE3}</ProjectGuid>
+    <ProjectGuid>{60A237E0-02DC-4FE9-B561-918CDB17B87A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AssignmentTest</RootNamespace>
-    <AssemblyName>AssignmentTest</AssemblyName>
+    <RootNamespace>SelectionSortBasicSort1</RootNamespace>
+    <AssemblyName>SelectionSortBasicSort1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
@@ -32,16 +32,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="iMember.cs" />
-    <Compile Include="Member.cs" />
-    <Compile Include="iTool.cs" />
-    <Compile Include="Tool.cs" />
-    <Compile Include="iMemberCollection.cs" />
-    <Compile Include="iToolCollection.cs" />
-    <Compile Include="ToolCollection.cs" />
-    <Compile Include="iToolLibrarySystem.cs" />
-    <Compile Include="ToolLibrarySystem.cs" />
-    <Compile Include="MemberCollection.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

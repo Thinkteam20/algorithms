@@ -1,7 +1,17 @@
 ﻿<Properties StartupConfiguration="{B06DE855-609B-4FBF-83E9-60C480647DE3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AssignmentTest/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AssignmentTest/Member.cs">
     <Files>
-      <File FileName="AssignmentTest/Program.cs" Line="9" Column="13" />
+      <File FileName="AssignmentTest/Program.cs" Line="13" Column="78" IsPinned="True" />
+      <File FileName="AssignmentTest/MemberCollection.cs" IsPinned="True" />
+      <File FileName="AssignmentTest/Member.cs" Line="18" Column="65" />
+      <File FileName="AssignmentTest/iMemberCollection.cs" />
+      <File FileName="AssignmentTest/iMember.cs" />
+      <File FileName="AssignmentTest/iTool.cs" />
+      <File FileName="AssignmentTest/Tool.cs" />
+      <File FileName="AssignmentTest/iToolCollection.cs" />
+      <File FileName="AssignmentTest/ToolCollection.cs" />
+      <File FileName="AssignmentTest/iToolLibrarySystem.cs" />
+      <File FileName="AssignmentTest/ToolLibrarySystem.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +26,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.AssignmentTest FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.AssignmentTest PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

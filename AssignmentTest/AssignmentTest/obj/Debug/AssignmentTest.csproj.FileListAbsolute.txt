@@ -4,3 +4,9 @@
 /Users/sangpiljung/Desktop/CAB301/Assignment/AssignmentTest/AssignmentTest/obj/Debug/AssignmentTest.csproj.CoreCompileInputs.cache
 /Users/sangpiljung/Desktop/CAB301/Assignment/AssignmentTest/AssignmentTest/obj/Debug/AssignmentTest.exe
 /Users/sangpiljung/Desktop/CAB301/Assignment/AssignmentTest/AssignmentTest/obj/Debug/AssignmentTest.pdb
+/Users/sangpiljung/Documents/github/algorithms/AssignmentTest/AssignmentTest/bin/Debug/AssignmentTest.exe
+/Users/sangpiljung/Documents/github/algorithms/AssignmentTest/AssignmentTest/bin/Debug/AssignmentTest.pdb
+/Users/sangpiljung/Documents/github/algorithms/AssignmentTest/AssignmentTest/obj/Debug/AssignmentTest.csprojAssemblyReference.cache
+/Users/sangpiljung/Documents/github/algorithms/AssignmentTest/AssignmentTest/obj/Debug/AssignmentTest.csproj.CoreCompileInputs.cache
+/Users/sangpiljung/Documents/github/algorithms/AssignmentTest/AssignmentTest/obj/Debug/AssignmentTest.exe
+/Users/sangpiljung/Documents/github/algorithms/AssignmentTest/AssignmentTest/obj/Debug/AssignmentTest.pdb

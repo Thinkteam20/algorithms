@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace AssignmentTest
+{
+    //The specification of MemberCollection ADT, which is used to store and manipulate a collection of members
+
+    public interface iMemberCollection
+    {
+        int Number // get the number of members in the community library
+        {
+            get;
+        }
+
+        void add(Member aMember); //add a new member to this member collection, make sure there are no duplicates in the member collection
+
+        void delete(Member aMember); //delete a given member from this member collection, a member can be deleted only when the member currently is not holding any tool
+
+        Boolean search(Member aMember); //search a given member in this member collection. Return true if this memeber is in the member collection; return false otherwise.
+
+        Member[] toArray(); //output the memebers in this collection to an array of iMember
+    }
+}
+
+// it is easy way to get all the members out of the binary search tree and then stick them in an array.
+//so i can create an array of sufficient size 

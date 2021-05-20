@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.809.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IFlearning", "IFlearning\IFlearning.csproj", "{E668ED7F-72AD-46C9-AF8C-89921913FABD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E668ED7F-72AD-46C9-AF8C-89921913FABD}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{E668ED7F-72AD-46C9-AF8C-89921913FABD}.Debug|anycpu.Build.0 = Debug|anycpu
+		{E668ED7F-72AD-46C9-AF8C-89921913FABD}.Release|anycpu.ActiveCfg = Release|anycpu
+		{E668ED7F-72AD-46C9-AF8C-89921913FABD}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3C18E8A-73A6-4F9E-82A0-E29CBE887076}
+	EndGlobalSection
+EndGlobal

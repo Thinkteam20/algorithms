@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{E668ED7F-72AD-46C9-AF8C-89921913FABD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IFlearning/Program.cs">
+    <Files>
+      <File FileName="IFlearning/Program.cs" Line="19" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IFlearning" expanded="True">
+            <Node name="IFlearning" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.IFlearning FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
