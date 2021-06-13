@@ -6,20 +6,48 @@ namespace AssignmentTest
     {
         public static void Main(string[] args)
         {
-            //MainMenu();
+            ToolCollection[] aToolcolc = new ToolCollection[] {
+                new ToolCollection("1. Gardening tools", new string[]{ "Line Trimmers", "Lawn Mowers", "Hand Tools", "Wheelbarrows", "Garden Power Tools"}),
+                new ToolCollection("2. Flooring tools",new string[]{ "Scrapers", "Floor Lasers", "Floor Levelling Tools", "Floor Levelling Materials", "Floor Hand Tools", "Tiling Tools"}),
+                new ToolCollection("3. Fencing tools",new string[]{ "Hand Tools", "Electric Fencing", "Steel Fencing Tools", "Power Tools", "Fencing Accessories" }),
+                new ToolCollection("4. Measuring tools",new string[]{ "Distance Tools", "Lawn Mowers", "Measuring Jugs", "Temperature & Humidity Tools", "Levelling Tools" } ),
+                new ToolCollection("5. Cleaning tools",new string[]{ "Draining", "Car Cleaning", "Vacuum", "Pressure Cleaners", "Pool Cleaning", "Floor Cleaning" } ),
+                new ToolCollection("6. Painting tools",new string[]{ "Sanding Tools", "Brushes", "Rollers", "Paint Removal Tools", "Paint Scrapers", "Sprayers" } ),
+                new ToolCollection("7. Electronic tools",new string[]{ "Voltage Tester", "Oscilloscopes", "Thermal Imaging", "Data Test Tool", "Insulation Testers" }),
+                new ToolCollection("8. Electricity tools",new string[]{ "Test Equipment", "Safety Equipment", "Basic Hand tools", "Circuit Protection", "Cable Tools" }),
+                new ToolCollection("9. Automotive tools",new string[]{ "Jacks", "Air Compressors", "Battery Chargers", "Socket Tools", "Braking", "Drivetrain" }),
+            };
+
+            MainMenu(aToolcolc);
             //Console.WriteLine("");
-            MemberCollection aBSTree = new MemberCollection();
-            aBSTree.add(new Member("Sangpil", "Jung", "0451116035", "0411"));
-            aBSTree.add(new Member("Sangpil", "Jung", "0451116035", "0411"));
+            //MemberCollection aBSTree = new MemberCollection();
+            //aBSTree.add(new Member("Sangpil", "Jung", "0451116035", "0411"));
+            //aBSTree.add(new Member("Malcom", "tunbull", "03412333", "1123"));
             //aBSTree.add(new Member("Turnbull", "Malcolm", "0451116035", "0411"));
-            aBSTree.IsEmpty();
-            Console.WriteLine(aBSTree.IsEmpty());
+            //aBSTree.IsEmpty();
+            //Console.WriteLine(aBSTree.IsEmpty());
+            //aBSTree.InOrderTraverse();
+
+
+            //aToolcolc.add(new Tool("sa sta at", 1, 1, 1));
+            //aToolcolc.add(new Tool("asdfasdfsadf", 2, 1, 1));
+
+            //aToolcolc.Display();
+            //aToolcolc.delete(new Tool("asdfasdfsadf", 2, 1, 1));
+            //aToolcolc.Display();
+
+            //aToolcolc.toArray();
+
+            //aBSTree.Search(new Customer("Turnbull", "Malcolm", 22222222));
+            //Console.WriteLine(aBSTree.Search(new Customer("Turnbull", "Malcolm", 22222222)));
             //aBSTree.search(new Member("Sangpil", "Jung", "0451116035", "0411"));
 
+            //Tool aTool = new Tool("sa sta at", 1, 1, 1);
+            //Console.WriteLine(aTool);
         }
 
 
-        static void MainMenu()
+        static void MainMenu(ToolCollection[] aToolcolc)
         {
             Console.Clear();
             Console.WriteLine("=========main menu==========");
@@ -34,36 +62,23 @@ namespace AssignmentTest
             switch (myoption)
             {
                 case "1":
-                    StaffLogin();
+                    StaffLogin(aToolcolc);
                     break;
                 case "2":
-                    MemberLogin();
+                    MemberLogin(aToolcolc);
                     break;
                 case "0":
                     Exit();
                     break;
             }
         }
-        static void StaffLogin()
+        static void StaffLogin(ToolCollection[] aToolcolc)
         {
-            // staff username and password to verify staff
             Console.Clear();
             Console.WriteLine("=========Staff menu==========");
             Console.WriteLine("1. Add a new tool");
-            //display all the nine tool categ
-            //select a category
-            //display all the tool types of the selected category
-            //select a tool type
-            //display all the tools of the selected tool type ( optional ) 
-            // add a new tool th the tool type
-            //display all the tools in the selected tool type again.
-
-            //itoolcollection i guess
-
-
-            Console.WriteLine("2. add new pieces of an existing tool");
+            Console.WriteLine("2. Add new pieces of an existing tool");
             Console.WriteLine("3. Remove some pieces of a tool");
-            //controls the member from system how can i call these function and from where ? 
             Console.WriteLine("4. Register a new member");
             Console.WriteLine("5. Remove a member");
             Console.WriteLine("6. Find the contact number of a member");
@@ -76,32 +91,15 @@ namespace AssignmentTest
             switch (myoption)
             {
                 case "1":
-                    StaffLogin();
+                    AddNewTool(aToolcolc);
                     break;
                 case "2":
-                    MemberLogin();
+                    AddNewPieceOfExistingTool(aToolcolc);
                     break;
                 case "3":
                     Exit();
                     break;
                 case "4":
-                    //Member member1 = new Member("Sangpil", "Jung", "0451116035", "0411");
-                    //Console.WriteLine(member1);
-          
-                    // build a Binary Search Tree (BST)
-                    //Initially it is empty
-                    //iMemberCollection aBSTree = new MemberCollection();
-
-                    //use the Insert method to insert five Cutomer objects into the BST 
-                    //aBSTree.add(new Member("Morris", "Scott", "11111111", "0512"));
-                    //aBSTree.add(new Member("Turnbull", "Malcolm", "2222222", "1223"));
-                    //aBSTree.add(new Member("Rudd", "Kevin", "3333333", "1231"));
-                    //aBSTree.add(new Member("Gillard", "Julia", "4444444", "3333"));
-                    // pre-order traversal
-                    //aBSTree.PreOrderTraverse();
-
-                    
-
                     Exit();
                     break;
                 case "5":
@@ -111,11 +109,11 @@ namespace AssignmentTest
                     Exit();
                     break;
                 case "0":
-                    MainMenu();
+                    MainMenu(aToolcolc);
                     break;
             }
         }
-        static void MemberLogin()
+        static void MemberLogin(ToolCollection[] aToolcolc)
         {
             // first name and lastname and pin number to vertify 
             Console.Clear();
@@ -152,10 +150,8 @@ namespace AssignmentTest
             switch (myoption)
             {
                 case "1":
-                    StaffLogin();
                     break;
                 case "2":
-                    MemberLogin();
                     break;
                 case "3":
                     Exit();
@@ -167,9 +163,38 @@ namespace AssignmentTest
                     Exit();
                     break;
                 case "0":
-                    MainMenu();
+                    MainMenu(aToolcolc);
                     break;
             }
+        }
+        static void AddNewTool(ToolCollection[] aToolcolc) {
+            Console.Clear();
+            Console.WriteLine("Enter name for the new tool: ");
+            String newToolName = Console.ReadLine();
+            Console.WriteLine("Select the category");
+            foreach (ToolCollection tool in aToolcolc) {
+                Console.WriteLine(tool);
+            }
+            Console.WriteLine("Select the option from menu");
+            int category = Convert.ToInt32(Console.ReadLine())-1;
+            Console.WriteLine("");
+            Console.WriteLine("Select the tool type");
+            Console.WriteLine("-----------------------------");
+            aToolcolc[category].ShowAllType();
+            Console.WriteLine("Select the option from menu");
+
+
+
+            MainMenu(aToolcolc);
+        }
+        static void AddNewPieceOfExistingTool(ToolCollection[] aToolcolc)
+        {
+            Console.Clear();
+            Console.WriteLine("Please select the tools to add");
+            aToolcolc.Display();
+            int index = Convert.ToInt32(Console.ReadLine())+1;
+            aToolcolc[index]
+            Console.WriteLine("Enter the number of piece to add for the selected tools");
         }
         static void Exit()
         {

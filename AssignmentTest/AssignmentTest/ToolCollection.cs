@@ -10,17 +10,52 @@ namespace AssignmentTest
         // private instance variable ? Tools / Tool array
         //private Tool[] collection;
 
-        
-        public int Number => throw new NotImplementedException();
 
-        public void add(Tool aTool)
+        private Tool[] tools;
+        private string[] yu; 
+        public int Number { get; private set; }
+        private string name;
+
+        public ToolCollection(String name, string[] categories)
         {
-            throw new NotImplementedException();
+            this.name = name;
+            tools = new Tool[30];
+            this.categories = categories;
+            Number = 0;
+        }
+
+        public void Display()
+        {
+            for (int i = 0; i < Number; i++) {
+                Console.WriteLine(i+1 + ". Name: " + tools[i].Name + ", Quantity: " + tools[i].Quantity);
+
+            }
+        }
+
+        public void ShowAllType()
+        {
+            for (int i = 0; i < categories.Length; i++)
+            {
+                Console.WriteLine(i + 1 + ". " + categories[i]);
+
+            }
+        }
+
+        public void add(string name, int quantity, int availablequantity, int noborrowings)
+        {
+            Tool atool = new Tool(name, quantity, availablequantity, noborrowings);
+            tools[Number] = atool;
+            Number++;
+        }
+            public void add(Tool aTool)
+        {
+            tools[Number] = aTool;
+            Number++;
         }
 
         public void delete(Tool aTool)
         {
-            throw new NotImplementedException();
+
         }
 
         public bool search(Tool aTool)
@@ -30,7 +65,7 @@ namespace AssignmentTest
 
         public Tool[] toArray()
         {
-            throw new NotImplementedException();
+            return tools;
         }
     }
 }

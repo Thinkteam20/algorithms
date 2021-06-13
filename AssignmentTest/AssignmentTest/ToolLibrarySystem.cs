@@ -11,11 +11,16 @@ namespace AssignmentTest
         public void add(Tool aTool, int quantity)
         {
             throw new NotImplementedException();
+            // ask to "tool name" take an string input 
+            // display the tool Categories (9) first let them choose by number
+            // then shwow the related tool types. take an input by number
+            // display Hit any key to continue
         }
 
         public void add(Member aMember)
         {
             throw new NotImplementedException();
+
         }
 
         public void borrowTool(Member aMember, Tool aTool)
@@ -61,6 +66,8 @@ namespace AssignmentTest
         public void returnTool(Member aMember, Tool aTool)
         {
             throw new NotImplementedException();
+            // Toolcollection delete
+
         }
     }
 }

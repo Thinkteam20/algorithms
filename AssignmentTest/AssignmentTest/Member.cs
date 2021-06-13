@@ -25,7 +25,7 @@ namespace AssignmentTest
         }
 
         public string[] Tools => throw new NotImplementedException();
-
+        
         public void addTool(Tool aTool)
         {
             throw new NotImplementedException();
@@ -35,7 +35,9 @@ namespace AssignmentTest
         {
             //Compare the last name first if last name is same then compare the first name
             //just Ln and Fn no pin mobile dont care
-            // compare string 
+            // compare string
+
+            //Member member = (Member)other;
             if (this.LastName.CompareTo(other.LastName) < 0)
                 return -1;
             else
@@ -43,6 +45,16 @@ namespace AssignmentTest
                 return this.FirstName.CompareTo(other.FirstName);
             else
                 return 1;
+
+            /*
+          if (this.LastName.CompareTo(other.LastName) < 0)
+              return -1;
+          else
+                  if (this.LastName.CompareTo(other.LastName) == 0)
+              return this.FirstName.CompareTo(other.FirstName);
+          else
+              return 1;
+          */
         }
 
         public void deleteTool(Tool aTool)
